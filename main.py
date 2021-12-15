@@ -17,13 +17,14 @@ args = parser.parse_args()
 
 # Parameters
 num_epochs = args.epochs
-checkpoint = "results/dorefa_resnet_cifar10/8and8_precision" 
+
 steps = [80, 150] 
 batch_size = args.batch_size
 test_batch_size = args.test_batch_size
 dataset = "cifar10"
 wbit = args.w
 abit = args.a
+checkpoint = "results/dorefa_resnet_cifar10/" + str(wbit) + "-" + str(abit)
 
 # Device settings (GPU/CPU)
 enable_cuda = args.enable_cuda
@@ -51,4 +52,4 @@ optimizer = torch.optim.SGD(model.parameters(), lr=args.lr, momentum=0.9,
 
 scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, steps, gamma=0.1)
 
-classification.train(criterion, optimizer, num_epochs, scheduler, checkpoint)
+classification.train(criterion, optimizer, num_epochs, scheduler, wbit, abit, checkpoint)

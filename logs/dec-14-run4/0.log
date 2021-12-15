@@ -1,0 +1,63 @@
+Train using cuda
+Files already downloaded and verified
+Files already downloaded and verified
+Train Epoch 1	 Loss: 1.641248	 Test Accuracy 49.060 	 lr: 0.0100
+Best accuracy: 49.060 
+Train Epoch 2	 Loss: 1.152914	 Test Accuracy 56.920 	 lr: 0.0100
+Best accuracy: 56.920 
+Train Epoch 3	 Loss: 0.937465	 Test Accuracy 61.000 	 lr: 0.0100
+Best accuracy: 61.000 
+Train Epoch 4	 Loss: 0.805422	 Test Accuracy 64.050 	 lr: 0.0100
+Best accuracy: 64.050 
+Train Epoch 5	 Loss: 0.713508	 Test Accuracy 70.710 	 lr: 0.0100
+Best accuracy: 70.710 
+Train Epoch 6	 Loss: 0.641213	 Test Accuracy 71.280 	 lr: 0.0100
+Best accuracy: 71.280 
+Train Epoch 7	 Loss: 0.588651	 Test Accuracy 69.620 	 lr: 0.0100
+Best accuracy: 71.280 
+Train Epoch 8	 Loss: 0.537284	 Test Accuracy 76.960 	 lr: 0.0100
+Best accuracy: 76.960 
+Train Epoch 9	 Loss: 0.500770	 Test Accuracy 76.570 	 lr: 0.0100
+Best accuracy: 76.960 
+Train Epoch 10	 Loss: 0.474922	 Test Accuracy 74.480 	 lr: 0.0100
+Best accuracy: 76.960 
+Train Epoch 11	 Loss: 0.446810	 Test Accuracy 71.360 	 lr: 0.0100
+Best accuracy: 76.960 
+Train Epoch 12	 Loss: 0.421479	 Test Accuracy 80.010 	 lr: 0.0100
+Best accuracy: 80.010 
+Train Epoch 13	 Loss: 0.401219	 Test Accuracy 78.890 	 lr: 0.0100
+Best accuracy: 80.010 
+Train Epoch 14	 Loss: 0.387338	 Test Accuracy 73.790 	 lr: 0.0100
+Best accuracy: 80.010 
+Train Epoch 15	 Loss: 0.366214	 Test Accuracy 79.980 	 lr: 0.0100
+Best accuracy: 80.010 
+Train Epoch 16	 Loss: 0.348271	 Test Accuracy 79.690 	 lr: 0.0100
+Best accuracy: 80.010 
+Train Epoch 17	 Loss: 0.334819	 Test Accuracy 80.490 	 lr: 0.0100
+Best accuracy: 80.490 
+Train Epoch 18	 Loss: 0.324722	 Test Accuracy 77.370 	 lr: 0.0100
+Best accuracy: 80.490 
+Train Epoch 19	 Loss: 0.309962	 Test Accuracy 80.100 	 lr: 0.0100
+Best accuracy: 80.490 
+Train Epoch 20	 Loss: 0.298489	 Test Accuracy 74.600 	 lr: 0.0100
+Best accuracy: 80.490 
+Train Epoch 21	 Loss: 0.291779	 Test Accuracy 81.830 	 lr: 0.0100
+Best accuracy: 81.830 
+Train Epoch 22	 Loss: 0.275855	 Test Accuracy 80.960 	 lr: 0.0100
+Best accuracy: 81.830 
+Train Epoch 23	 Loss: 0.269838	 Test Accuracy 80.090 	 lr: 0.0100
+Best accuracy: 81.830 
+Train Epoch 24	 Loss: 0.259371	 Test Accuracy 82.270 	 lr: 0.0100
+Best accuracy: 82.270 
+Train Epoch 25	 Loss: 0.247442	 Test Accuracy 81.370 	 lr: 0.0100
+Best accuracy: 82.270 
+Train Epoch 26	 Loss: 0.241676	 Test Accuracy 83.920 	 lr: 0.0100
+Best accuracy: 83.920 
+Train Epoch 27	 Loss: 0.230392	 Test Accuracy 85.550 	 lr: 0.0100
+Best accuracy: 85.550 
+Train Epoch 28	 Loss: 0.220718	 Test Accuracy 82.190 	 lr: 0.0100
+Best accuracy: 85.550 
+Train Epoch 29	 Loss: 0.217844	 Test Accuracy 84.570 	 lr: 0.0100
+Best accuracy: 85.550 
+Train Epoch 30	 Loss: 0.214805	 Test Accuracy 82.200 	 lr: 0.0100
+Best accuracy: 85.550 

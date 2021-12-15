@@ -22,8 +22,8 @@ echo "Running new experiments: $EXP_NAME"
 # MODIFY THESE LINES WITH THE ARGUMENTS YOU NEED
 # create your argument combinations here
 arg_queue=()
-for arg1 in "1" "4" "8" "32"; do
-    for arg3 in "8" "32"; do
+for arg1 in "1" "4" "8"; do
+    for arg3 in "8"; do
         arg_queue+=("$ARG1 ${arg1} $ARG3 ${arg3}")
     done
 done

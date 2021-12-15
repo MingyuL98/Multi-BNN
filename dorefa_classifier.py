@@ -68,8 +68,7 @@ class DorefaClassifier():
 
         return losses
 
-    def train(self, criterion, optimizer, epochs, scheduler,
-            checkpoint=None):
+    def train(self, criterion, optimizer, epochs, scheduler, wbit, abit, checkpoint=None):
 
         if checkpoint is None:
             raise ValueError('Specify a valid checkpoint')
@@ -114,7 +113,7 @@ class DorefaClassifier():
 
 
         # trainig loss/accuracy VS testing loss/accuracy
-        figname = str(8) + '-' + str(8) + '.png'
+        figname = str(wbit) + '-' + str(abit) + '.png'
 
         plt.plot(training_loss, label='Training loss')
         plt.plot(testing_acc, label='Testing accuracy')
